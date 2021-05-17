@@ -1,0 +1,1 @@
+python manage.py test actions --settings config.${1} --noinput
