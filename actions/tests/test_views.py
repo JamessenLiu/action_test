@@ -11,5 +11,5 @@ class ActionTest(APITestCase):
         url = "/action"
         response = self.client.get(url)
         print(response.json())
-        self.assertEqual(400, response.status_code)
+        self.assertEqual(200, response.status_code)
         self.assertEqual("success", response.json()["message"])
