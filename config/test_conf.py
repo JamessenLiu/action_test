@@ -9,8 +9,8 @@ DATABASES = {
         'NAME': 'action',
         'USER': 'postgres',
         'PASSWORD': 'password',
-        'HOST': '144.34.188.213',
-        'PORT': 5433
+        'HOST': '127.0.0.1',
+        'PORT': 5432
     }
 }
 
