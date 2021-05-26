@@ -27,6 +27,12 @@ jobs:
           POSTGRES_DB: action
         ports:
           - 5432:5432
+          
+      redis:
+        image: redis:6.0.0
+        command: redis-server --requirepass password
+        ports:
+          - 6379:6379
 
 
     # Steps represent a sequence of tasks that will be executed as part of the job
