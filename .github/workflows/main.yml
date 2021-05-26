@@ -33,7 +33,7 @@ jobs:
         image: redis:6.0.0
         ports:
           - 6379:6379
-        options: --health-cmd "redis-cli ping" --health-interval 10s --health-timeout 5s --health-retries 5 redis-server --requirepass "password"
+        options: --health-cmd "redis-cli ping" --health-interval 10s --health-timeout 5s --health-retries 5
 
 
     # Steps represent a sequence of tasks that will be executed as part of the job
