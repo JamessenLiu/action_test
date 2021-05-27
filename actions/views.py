@@ -21,5 +21,7 @@ class ActionView(APIView):
             "code": 200, "message": "success",
                 "data": resp.json().get("data")}
         
+        print("end----------")
+        
 
         return Response(data)
